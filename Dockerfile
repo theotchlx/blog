@@ -1,0 +1,7 @@
+FROM postgres:latest
+
+# Set environment variables
+ENV POSTGRES_DB=$PG_DB
+ENV POSTGRES_USER=$PG_USER
+ENV POSTGRES_PASSWORD=$PG_PSSWD
+
