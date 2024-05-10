@@ -4,7 +4,7 @@ A simple PHP blog.  Just to try things out.
 --
 
 ### Setup
-docker-compose up -d
+docker-compose up -d  
 psql -h localhost -U blogger -d blog -f create_tables.sql
 
 ### Security issues and other problems with this project:
